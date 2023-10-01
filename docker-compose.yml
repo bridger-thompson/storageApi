@@ -6,5 +6,3 @@ services:
       context: .
     ports:
       - "9003:3000"
-    volumes:
-      - ./src:/app/src
