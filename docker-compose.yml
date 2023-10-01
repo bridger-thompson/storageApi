@@ -1,0 +1,10 @@
+version: '3'
+services:
+  storage-api:
+    container_name: bridger-storage-api
+    build:
+      context: .
+    ports:
+      - "9003:3000"
+    volumes:
+      - ./src:/app/src
